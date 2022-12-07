@@ -12,7 +12,9 @@
     "standard": "^17.0.0"
   },
   "standard": {
-    "env": [ "mocha" ]
+    "env": [
+      "mocha"
+    ]
   },
   "author": "Henry",
   "license": "ISC",
