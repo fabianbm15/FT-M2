@@ -72,7 +72,7 @@ var matchFunctionMaker = function (selector) {
 var $ = function (selector) { // $('#pagetitle')
   var elements;
   var selectorMatchFunc = matchFunctionMaker(selector); //  matchFunction = (e) => `#${e.id}` === selector;
-  elements = traverseDomAndCollectElements(selectorMatchFunc);
+  elements = traverseDomAndCollectElements( selectorMatchFunc);
   return elements;
 };
 
